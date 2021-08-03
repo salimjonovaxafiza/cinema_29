@@ -149,3 +149,140 @@ footer{
 footer a{
     color: white;
 }
+.forma{
+    border: none;
+    width: 767px;
+    height: 527px;
+    margin: 43px 183px 61px 174px;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 8px 9px 39px rgba(185, 185, 185, 0.37);
+}
+.forma img{
+    margin-left: 27px;
+}
+.img-back{
+    background: url(/images/26.png) no-repeat center/cover;
+    width: 414px;
+    height: 527px;
+    border-radius: 20px;
+}
+.party{
+    color: #A3CC40;
+    font-size: 25px;
+}
+.form{
+    font-size: 25px;
+    color: #A3CC40;
+    text-align: center;
+    width: 350px;
+    margin-top: 31px;
+}
+.party_form{
+    margin-left: -27px;
+}
+.full_name{
+    color: #A1A1A1;
+    width: 314px;
+    height: 40px;
+    outline: none;
+    background: #DEDEDE;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+}
+.option_form1{
+    width: 344px;
+    height: 40px;
+    padding-left: 15.56px;
+    border: none;
+    color: #A1A1A1;
+    background: #DEDEDE;
+    border-radius: 5px;
+    margin-top: 33px;
+    outline: none;
+}
+.full_name3{
+    color: #A1A1A1;
+    width: 314px;
+    height: 40px;
+    outline: none;
+    background: #DEDEDE;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15.56px;
+    padding-right: 15px;
+    padding-bottom: 87px;
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+}
+.chek{
+    display: flex;
+    margin-top: 20px;
+}
+.chek p{
+    margin-left: 6px;
+    font-size: 12px;
+}
+.bt_1{
+    border: none;
+    padding: 15.87px 30.92px 15.13px 32.59px;
+    width: 280.49px;
+    height: 57px;
+    border-radius: 6px;
+    background: #8db926;
+    color: white;
+    font-size: 20px;
+    margin-top: 46px;
+}
+.table_header{
+    height: 45px;
+    width: 600px;
+    margin: 50px 50px 50px 50px;
+    border-radius: 10px;
+    background: #373737;
+}
+.janr{
+    text-align: start;
+}
+.name_film{
+    text-align: start;
+}
+.head_tb{
+    background: #A3CC40;
+    
+}
+.table_header tr{
+    height: 30px;
+}
+#table{
+    width: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
+    border-collapse: collapse;
+    color: white;
+}
+#table tr:nth-child(even){
+    background-color: #373737; font-size: 14px;
+}
+#table tr{
+    height: 50px;
+}
+#table tr:nth-child(odd){
+    background-color: #4d4c4f;
+    font-size: 14px;
+}
+#table th{
+    background-color: #A3CC40;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.check{
+    width: 80px;
+    text-align: center;
+}
