@@ -19,7 +19,7 @@
 body{
     font-family: 'IBM-Plex-Sans';
 }
-.innopolis_info9 {
+.Good {
     border: 1px solid white;
     width: 350px;
     background: white;
@@ -51,7 +51,9 @@ body{
 .menu {
     margin-left: 80px;
 }
-
+.menu a{
+    color: white;
+}
 .present {
     background: url(/images/7.png) no-repeat center/cover;
     text-align: end;
@@ -62,7 +64,7 @@ body{
     position: relative;
 }
 
-.pod__text {
+.present__text {
     width: 50%;
     float: right;
 }
@@ -113,17 +115,17 @@ body{
     display: flex;
 }
 
-.card10{
+.Coca-cola{
     display: flex;
 }
-.box5 {
+.Reviews {
     background: url(/images/21.png) no-repeat center/cover;
     color: white;
     position: relative;
     padding-top: 100px;
 
 }
-.box3{
+.Елена{
     width: 20%;
     display: inline-block;
     background-color: yellowgreen;
@@ -132,13 +134,13 @@ body{
     border-radius: 9px;
     margin: 50px;
 }
-.box3 img {
+.Елена img {
     width: 100%;
 }
-.box3 h3{
+.Елена h3{
     padding: 8.68px;
 }
-.box3 p{
+.Елена p{
     padding: 8.53px;
 }
 .karta{
@@ -166,7 +168,7 @@ footer{
 footer a{
     color: white;
 }
-.forma{
+.Feedback{
     border: none;
     width: 767px;
     height: 527px;
@@ -175,7 +177,7 @@ footer a{
     display: flex;
     box-shadow: 8px 9px 39px rgba(185, 185, 185, 0.37);
 }
-.forma img{
+.Feedback img{
     margin-left: 27px;
 }
 .img-back{
@@ -244,17 +246,6 @@ footer a{
     margin-left: 6px;
     font-size: 12px;
 }
-.bt_1{
-    border: none;
-    padding: 15.87px 30.92px 15.13px 32.59px;
-    width: 280.49px;
-    height: 57px;
-    border-radius: 6px;
-    background: #8db926;
-    color: white;
-    font-size: 20px;
-    margin-top: 46px;
-}
 .table_header{
     height: 45px;
     width: 600px;
@@ -306,51 +297,65 @@ footer a{
 .box1{
     margin: 55px;
 }
-.card__box{
+.Coca-cola1{
     margin: 55px;
 }
-.box5{
+.Reviews{
     margin: 89.45px;
 }
-.box5 h1{
+.Reviews h1{
     margin: 26px;
+    margin-left: 139px;
 }
-.box1__text h3{
+.text{
+    margin-left: 141px;
+}
+.Large h3{
     padding: 35px;
 }
-.dd1 h1{
+.films h1{
     margin: 27px;
-    margin-left: 137px;
+    margin-left: 140px;
 }
-.dd1 p{
+.films p{
    margin: 64px;
-   margin-left: 139px;
+   margin-left: 140px;
 }
-.xx h1{
+.why h1{
     margin: 84px;
 }
-.xx h1{
-    margin: 84px;
-}
-.xx p{
+.why p{
     margin: 30px;
     text-align: center;
 }
-.dd2{
+.films{
     margin-left: 139px;
 }
-.dd3{
+.films{
     margin-left: 139px;
 }
-.dd4{
+.films{
     margin-left: 139px;
 }
-.dd h1{
-    margin: 79px 437px 27px 139px;
+.goods h1{
+    margin: 79px 437px 27px 100px;
 }
-.dd p{
-    margin: 27px 437px 57px 139px;
+.goods p{
+    margin: 27px 437px 57px 100px;
 }
 .card{
     margin-left: 99px;
+}
+.movie h1{
+    margin: 144px 595px 84px 135px;
+}
+.movie p{
+    margin: 30px 292px 199px 293px;
+}
+.good{
+    margin: 110px;
+    padding-left: 70px;
+}
+.logo{
+    margin-top: 99px;
 }
