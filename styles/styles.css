@@ -1,14 +1,24 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
+
 .head2 {
     background: url(/images/Back.png) no-repeat center/cover;
     position: relative;
     height: 500px;
     margin-bottom: 150px;
 }
-
+@font-face {
+    font-family: 'IBM-Plex-Sans';
+    src: url('/fonts/IBMPlexSans-Light.ttf');
+    font-size: normal;
+    font-weight: 100;
+}
+body{
+    font-family: 'IBM-Plex-Sans';
+}
 .innopolis_info9 {
     border: 1px solid white;
     width: 350px;
@@ -20,6 +30,7 @@
     bottom: -50px;
     right: 100px;
     border-radius: 10px;
+    
 }
 
 .box1 {
@@ -123,6 +134,12 @@
 }
 .box3 img {
     width: 100%;
+}
+.box3 h3{
+    padding: 8.68px;
+}
+.box3 p{
+    padding: 8.53px;
 }
 .karta{
     width: 973px;
@@ -285,4 +302,55 @@ footer a{
 .check{
     width: 80px;
     text-align: center;
+}
+.box1{
+    margin: 55px;
+}
+.card__box{
+    margin: 55px;
+}
+.box5{
+    margin: 89.45px;
+}
+.box5 h1{
+    margin: 26px;
+}
+.box1__text h3{
+    padding: 35px;
+}
+.dd1 h1{
+    margin: 27px;
+    margin-left: 137px;
+}
+.dd1 p{
+   margin: 64px;
+   margin-left: 139px;
+}
+.xx h1{
+    margin: 84px;
+}
+.xx h1{
+    margin: 84px;
+}
+.xx p{
+    margin: 30px;
+    text-align: center;
+}
+.dd2{
+    margin-left: 139px;
+}
+.dd3{
+    margin-left: 139px;
+}
+.dd4{
+    margin-left: 139px;
+}
+.dd h1{
+    margin: 79px 437px 27px 139px;
+}
+.dd p{
+    margin: 27px 437px 57px 139px;
+}
+.card{
+    margin-left: 99px;
 }
