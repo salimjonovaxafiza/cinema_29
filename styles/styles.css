@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    
 }
 
 .head2 {
@@ -10,27 +9,27 @@
     height: 500px;
     margin-bottom: 150px;
 }
+
 @font-face {
     font-family: 'IBM-Plex-Sans';
     src: url('/fonts/IBMPlexSans-Light.ttf');
     font-size: normal;
     font-weight: 100;
 }
-body{
+
+body {
     font-family: 'IBM-Plex-Sans';
 }
-.Good {
+
+.good {
     border: 1px solid white;
     width: 350px;
     background: white;
     text-align: center;
-    margin-left: 799px;
     position: absolute;
     color: black;
-    bottom: -50px;
     right: 100px;
     border-radius: 10px;
-    
 }
 
 .box1 {
@@ -51,9 +50,11 @@ body{
 .menu {
     margin-left: 80px;
 }
-.menu a{
+
+.menu a {
     color: white;
 }
+
 .present {
     background: url(/images/7.png) no-repeat center/cover;
     text-align: end;
@@ -115,9 +116,11 @@ body{
     display: flex;
 }
 
-.Coca-cola{
+.Coca-cola {
     display: flex;
+
 }
+
 .Reviews {
     background: url(/images/21.png) no-repeat center/cover;
     color: white;
@@ -125,7 +128,8 @@ body{
     padding-top: 100px;
 
 }
-.Елена{
+
+.actor {
     width: 20%;
     display: inline-block;
     background-color: yellowgreen;
@@ -134,41 +138,50 @@ body{
     border-radius: 9px;
     margin: 50px;
 }
-.Елена img {
+
+.actor img {
     width: 100%;
 }
-.Елена h3{
+
+.actor h3 {
     padding: 8.68px;
 }
-.Елена p{
+
+.actor p {
     padding: 8.53px;
 }
-.karta{
+
+.map {
     width: 973px;
     height: 421px;
     margin: 50px;
 }
-.innopolis{
+
+.innopolis {
     width: 20%;
     display: inline-block;
 }
-footer{
+
+footer {
     display: block;
     background: #A3CC40;
     color: white;
     padding: 50px;
     height: 300px;
 }
-.text3{
+
+.text3 {
     display: inline-block;
     width: 20%;
     height: 26px;
     margin: 0 50px;
 }
-footer a{
+
+footer a {
     color: white;
 }
-.Feedback{
+
+.Feedback {
     border: none;
     width: 767px;
     height: 527px;
@@ -177,30 +190,36 @@ footer a{
     display: flex;
     box-shadow: 8px 9px 39px rgba(185, 185, 185, 0.37);
 }
-.Feedback img{
+
+.Feedback img {
     margin-left: 27px;
 }
-.img-back{
+
+.img-back {
     background: url(/images/26.png) no-repeat center/cover;
     width: 414px;
     height: 527px;
     border-radius: 20px;
 }
-.party{
+
+.party {
     color: #A3CC40;
     font-size: 25px;
 }
-.form{
+
+.form {
     font-size: 25px;
     color: #A3CC40;
     text-align: center;
     width: 350px;
     margin-top: 31px;
 }
-.party_form{
+
+.party_form {
     margin-left: -27px;
 }
-.full_name{
+
+.full_name {
     color: #A1A1A1;
     width: 314px;
     height: 40px;
@@ -212,7 +231,8 @@ footer a{
     padding-right: 15px;
     margin-top: 20px;
 }
-.option_form1{
+
+.option_form1 {
     width: 344px;
     height: 40px;
     padding-left: 15.56px;
@@ -223,7 +243,8 @@ footer a{
     margin-top: 33px;
     outline: none;
 }
-.full_name3{
+
+.full_name3 {
     color: #A1A1A1;
     width: 314px;
     height: 40px;
@@ -238,35 +259,43 @@ footer a{
     display: flex;
     align-items: flex-start;
 }
-.chek{
+
+.chek {
     display: flex;
     margin-top: 20px;
 }
-.chek p{
+
+.chek p {
     margin-left: 6px;
     font-size: 12px;
 }
-.table_header{
+
+.table_header {
     height: 45px;
     width: 600px;
     margin: 50px 50px 50px 50px;
     border-radius: 10px;
     background: #373737;
 }
-.janr{
+
+.janr {
     text-align: start;
 }
-.name_film{
+
+.name_film {
     text-align: start;
 }
-.head_tb{
+
+.head_tb {
     background: #A3CC40;
-    
+
 }
-.table_header tr{
+
+.table_header tr {
     height: 30px;
 }
-#table{
+
+.table__head {
     width: 80%;
     border-radius: 10px;
     overflow: hidden;
@@ -274,88 +303,117 @@ footer a{
     border-collapse: collapse;
     color: white;
 }
-#table tr:nth-child(even){
-    background-color: #373737; font-size: 14px;
-}
-#table tr{
-    height: 50px;
-}
-#table tr:nth-child(odd){
+
+.table__head tr:nth-child(even) {
+
     background-color: #4d4c4f;
     font-size: 14px;
 }
-#table th{
+
+.table__head tr {
+    height: 50px;
+}
+
+.table__head tr:nth-child(odd) {
+    background-color: #373737;
+    font-size: 14px;
+}
+
+
+.check {
+    width: 80px;
+    text-align: center;
+}
+
+th {
+    text-align: start;
     background-color: #A3CC40;
     color: white;
     font-size: 20px;
     font-weight: 600;
 }
-.check{
-    width: 80px;
-    text-align: center;
-}
-.box1{
+
+.box1 {
     margin: 55px;
 }
-.Coca-cola1{
+
+.Coca-cola1 {
     margin: 55px;
 }
-.Reviews{
+
+.Reviews {
     margin: 89.45px;
 }
-.Reviews h1{
+
+.Reviews h1 {
     margin: 26px;
     margin-left: 139px;
 }
-.text{
+
+.text {
     margin-left: 141px;
 }
-.Large h3{
+
+.Large h3 {
     padding: 35px;
 }
-.films h1{
+
+.films h1 {
     margin: 27px;
     margin-left: 140px;
 }
-.films p{
-   margin: 64px;
-   margin-left: 140px;
+
+.films p {
+    margin: 64px;
+    margin-left: 140px;
 }
-.why h1{
+
+.why h1 {
     margin: 84px;
 }
-.why p{
+
+.why p {
     margin: 30px;
     text-align: center;
 }
-.films{
+
+.films {
     margin-left: 139px;
 }
-.films{
+
+.films {
     margin-left: 139px;
 }
-.films{
+
+.films {
     margin-left: 139px;
 }
-.goods h1{
+
+.goods h1 {
     margin: 79px 437px 27px 100px;
 }
-.goods p{
+
+.goods p {
     margin: 27px 437px 57px 100px;
 }
-.card{
+
+.card {
     margin-left: 99px;
 }
-.movie h1{
+
+.movie h1 {
     margin: 144px 595px 84px 135px;
 }
-.movie p{
+
+.movie p {
     margin: 30px 292px 199px 293px;
 }
-.good{
+
+.good {
     margin: 110px;
-    padding-left: 70px;
+    padding: 20px;
 }
-.logo{
+
+.logo {
     margin-top: 99px;
 }
