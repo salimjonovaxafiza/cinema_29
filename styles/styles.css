@@ -4,21 +4,47 @@
 }
 
 .head2 {
-    background: url(/images/Back.png) no-repeat center/cover;
+    background: url(../images/Back.png) no-repeat center/cover;
     position: relative;
     height: 500px;
     margin-bottom: 150px;
 }
-
 @font-face {
-    font-family: 'IBM-Plex-Sans';
-    src: url('/fonts/IBMPlexSans-Light.ttf');
-    font-size: normal;
+    font-family: ' IBM-Plex-Sans-Thin';
+    src: url(../fonts/IBMPlexSans-Thin.ttf);
+    font-style: normal;
     font-weight: 100;
 }
 
-body {
+@font-face {
+    font-family: 'IBM-Plex-Sans-Regular';
+    src: url(../fonts/IBMPlexSans-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'IBM-Plex-Sans-SemiBold';
+    src: url(../fonts/IBMPlexSans-SemiBold.ttf);
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'IBM-Plex-Sans-Medium';
+    src: url(../fonts/IBMPlexSans-Medium.ttf);
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
     font-family: 'IBM-Plex-Sans';
+    src: url(/fonts/IBMPlexSans-Light.ttf);
+    font-style: normal;
+    font-weight: 200;
+}
+body {
+    font-family:  'IBM-Plex-Sans' ;
 }
 
 .good {
@@ -30,6 +56,18 @@ body {
     color: black;
     right: 100px;
     border-radius: 10px;
+}
+
+.welcom {
+    font-size: 100px;
+    font-weight: 100;
+    color: white;
+}
+
+.welcome {
+    font-size: 50px;
+    font-weight: 10;
+    color: white;
 }
 
 .box1 {
@@ -56,7 +94,7 @@ body {
 }
 
 .present {
-    background: url(/images/7.png) no-repeat center/cover;
+    background: url(../images/7.png) no-repeat center/cover;
     text-align: end;
     height: 500px;
     padding-top: 100px;
@@ -122,7 +160,7 @@ body {
 }
 
 .Reviews {
-    background: url(/images/21.png) no-repeat center/cover;
+    background: url(../images/21.png) no-repeat center/cover;
     color: white;
     position: relative;
     padding-top: 100px;
@@ -196,7 +234,7 @@ footer a {
 }
 
 .img-back {
-    background: url(/images/26.png) no-repeat center/cover;
+    background: url(../images/26.png) no-repeat center/cover;
     width: 414px;
     height: 527px;
     border-radius: 20px;
