@@ -1,0 +1,58 @@
+body{
+    font-family: 'IBMPlexSans' sans-serif;
+    font-weight: 300;
+    line-height: 1;
+}
+
+*{
+    font-size: 30px;
+}
+
+@font-face{
+    font-family: 'IBMPlexSans';
+    src: url('../../Cinema_2/fonts/IBMPlexSans-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face{
+    font-family: 'IBMPlexSans';
+    src: url('../../Cinema_2/fonts/IBMPlexSans-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: 'IBMPlexSans';
+    src: url('../../Cinema_2/fonts/IBMPlexSans-Light.ttf');
+    font-weight: 300;
+}
+
+.parent1 .class2{
+    color: red;
+}
+
+.class1{
+    font-size: 30px;
+}
+
+#id1{
+    color: green;
+}
+
+.class1#id1{
+    color: purple !important;
+} 
+
+.text1{
+    color:aqua;
+}
+
+.link1{
+    display: inline-block;
+    padding: 15px;
+    flex: 20;
+    background: green;
+    color: #fff;
+    text-decoration: none;
+    border: 10px solid cyan;
+    outline: 10px solid darkmagenta;
+}
