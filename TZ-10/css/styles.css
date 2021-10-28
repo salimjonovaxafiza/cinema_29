@@ -28,7 +28,7 @@
     font-weight: 600;
 }
 html{
-    font-size: 20px;
+    font-size: 1.78vw;
 }
 
 /*Global properties*/
@@ -111,7 +111,7 @@ body {
     color: white;
     font-weight: 500;
     font-size: 0.6rem;
-    line-height: 16px;
+    line-height: 0.8rem;
 }
 
 .header__link:hover {
@@ -127,7 +127,7 @@ body {
     color: white;
     font-weight: 500;
     font-size: 0.6rem;
-    line-height: 16px;
+    line-height: 0.8rem;
 }
 
 .header__select option {
@@ -145,7 +145,7 @@ body {
     color: #333;
     font-weight: 500;
     font-size: 0.6rem;
-    line-height: 16px;
+    line-height: 0.8rem;
     text-align: center;
     transition: 0.3s;
 }
@@ -212,7 +212,7 @@ body {
     height: 2.4rem;
     font-weight: 600;
     font-size: 1.65rem;
-    line-height: 105px;
+    line-height: 5.25rem;
     color: #333333;
 }
 
@@ -221,11 +221,10 @@ body {
     text-align: left;
     width: 16.6rem;
     height: 2.7rem;
-    font-family: IBM Plex Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 0.55rem;
-    line-height: 14px;
+    line-height: 0.7rem;
     color: #333333;
 }
 
@@ -233,7 +232,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 0.55rem;
-    line-height: 14px;
+    line-height: 0.7rem;
     color: #333333;
 }
 
@@ -243,9 +242,9 @@ body {
     transform: scale(1.07);
 }
 
-.why_us {
+/* .why_us {
     padding: 0 0 0 6.95rem;
-}
+} */
 
 .why_us_first_row {
     display: flex;
@@ -257,9 +256,7 @@ body {
 }
 
 .why_us h2 {
-    margin-top: -0.6rem;
     margin-bottom: 3.05rem;
-    margin-left: -0.25rem;
 }
 
 .why_us_cards {
@@ -274,9 +271,6 @@ body {
 
 .why_us_cards h3 {
     font-style: normal;
-    margin-bottom: 3.4rem;
-    width: 12.15rem;
-    height: 1.45rem;
     font-weight: 600;
     font-size: 1rem;
     line-height: 5.95rem;
@@ -287,9 +281,9 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 2.4rem;
-    line-height: 111.4px;
+    line-height: 5.55rem;
     color: #A3CC40;
-    margin: 1.7rem 0 0.8rem -0.3rem;
+    margin: 1.7rem 0 0.8rem 0;
 }
 
 /*Choose film (table)*/
@@ -309,7 +303,7 @@ body {
 
 .table_head {
     font-size: 1rem;
-    line-height: 26px;
+    line-height: 1.3rem;
     font-weight: 600;
     background: #a3cc40;
     color: #ffff;
@@ -334,7 +328,7 @@ th svg {
     font-weight: 400;
     font-style: normal;
     font-size: 0.7rem;
-    line-height: 14.2px;
+    line-height: 0.7rem;
     color: #ffff;
 }
 
@@ -403,8 +397,8 @@ th svg {
 .gift::after {
     content: '';
     position: absolute;
-    bottom: -1px;
-    right: -1px;
+    bottom: -0.05rem;
+    right: -0.05rem;
     border-bottom: 12.3rem solid #fff;
     border-left: 149vw solid transparent;
 }
@@ -412,7 +406,7 @@ th svg {
 .gift::before {
     content: '';
     position: absolute;
-    top: -1px;
+    top: -0.05rem;
     right: 0;
     border-top: 5.45rem solid #fff;
     border-right: 100vw solid transparent;
@@ -427,7 +421,7 @@ th svg {
     font-style: normal;
     font-weight: 500;
     font-size: 2.4rem;
-    line-height: 73px;
+    line-height: 3.65rem;
     text-align: right;
     color: #FFFFFF;
 }
@@ -435,7 +429,7 @@ th svg {
 .gift__text {
     font-weight: normal;
     font-size: 0.55rem;
-    line-height: 13px;
+    line-height: 0.65rem;
     text-align: end;
     color: #FFFFFF;
     margin-top: 1.9rem;
@@ -487,24 +481,24 @@ th svg {
 
 .cinema__heading {
     color: #A3CC40;
-    font-size: 3rem;
+    font-size: 3.75rem;
     font-weight: 500;
     margin-bottom: 2.25rem;
 }
 
 .section__commit {
-    font-size: 0.6875rem;
+    font-size: 0.65rem;
     margin-bottom: 4.25rem;
-    margin-top: 1.625rem;
+    margin-top: 1.6rem;
 }
 
 .section__text {
-    font-size: 0.6875rem;
-    line-height: 0.875rem;
+    font-size: 0.65rem;
+    line-height: 0.85rem;
 }
 
 .film__img {
-    width: 17.6875rem;
+    width: 17.65rem;
     position: relative;
     overflow: hidden;
     display: block;
@@ -536,7 +530,7 @@ th svg {
 .film__img img {
     display: flex;
     width: 100%;
-    height: 17.6875rem;
+    height: 17.65rem;
 }
 
 .film__p {
@@ -549,7 +543,7 @@ th svg {
     box-sizing: border-box;
     transition: 0.3s;
     z-index: 1;
-    padding: 1.0625rem 1.375rem;
+    padding: 1.05rem 1.35rem;
 }
 
 .film__cards {
@@ -560,17 +554,18 @@ th svg {
     margin-bottom: 1.25rem;
     color: white;
     font-weight: 600;
-    font-size: 1.8125rem;
-    line-height: 2.375rem;
+    font-size: 1.8rem;
+    line-height: 2.35rem;
 }
 
 .cinema__text {
     color: white;
-    font-size: 0.6875rem;
+    font-size:0.65rem;
     font-weight: 400;
-    font-size: 0.6875rem;
-    line-height: 0.875rem;
+    font-size:0.65rem;
+    line-height: 0.85rem;
 }
+
 
 /* Goods */
 
@@ -659,7 +654,7 @@ th svg {
     color: white;
     margin: -0.7rem 0 0 6.3rem;
     margin-left: 0.15rem;
-    line-height: 15px;
+    line-height: 0.75rem;
     margin-top: 1.65rem;
 }
 
@@ -675,7 +670,7 @@ th svg {
 #reviews::after {
     content: '';
     position: absolute;
-    bottom: -2px;
+    bottom: -0.1rem;
     right: 0;
     border-bottom: 13.25rem solid #fff;
     border-left: 216vw solid transparent;
@@ -684,7 +679,7 @@ th svg {
 #reviews::before {
     content: '';
     position: absolute;
-    top: -1px;
+    top: -0.05rem;
     right: 0;
     border-top: 7.4rem solid #fff;
     border-right: 100vw solid transparent;
@@ -733,7 +728,7 @@ th svg {
     font-style: normal;
     font-weight: 600;
     font-size: 0.8rem;
-    line-height: 26px;
+    line-height: 1.3rem;
     color: #FFFFFF;
     margin: 0.75rem 0.95rem 0 0.35rem;
 }
@@ -742,7 +737,7 @@ th svg {
     font-style: normal;
     font-weight: normal;
     font-size: 0.5rem;
-    line-height: 13px;
+    line-height: 0.65rem;
     color: #FFFFFF;
     vertical-align: text-top;
     width: 8.55rem;
@@ -756,7 +751,7 @@ th svg {
     font-style: normal;
     font-weight: 600;
     font-size: 0.95rem;
-    line-height: 23px;
+    line-height: 1.15rem;
     color: #FFFFFF;
     margin: 1rem 0 0 0.85rem;
 }
@@ -767,20 +762,24 @@ th svg {
     font-style: normal;
     font-weight: 400;
     font-size: 0.55rem;
-    line-height: 14px;
+    line-height: 0.7rem;
     color: #FFFFFF;
     margin: 1.15rem 0 0 0.95rem;
 }
 
 /* Обратная связь */
 
+.feedback{
+    margin-bottom: 3.05rem;
+}
+
 .feedback__form {
-    background: url(/img/krists-luhaers-AtPWnYNDJnM-unsplash.png)no-repeat center left;
+    background: url(/img/krists-luhaers-AtPWnYNDJnM-unsplash.png)no-repeat center left /50% 100%;
     /* display: flex;
     padding: 2rem;
     margin: 0.1rem 0 0 24.05rem; */
-    border-radius: 20px;
-    box-shadow: 8px 9px 39px rgba(185, 185, 185, 0.37);
+    border-radius: 1rem;
+    box-shadow: 0.4rem 0.45rem 1.95rem rgba(185, 185, 185, 0.37);
     position: relative;
 }
 
@@ -809,8 +808,8 @@ th svg {
 .tx-form {
     font-weight: 500;
     font-size: 1.25rem;
-    line-height: 32px;
-    margin-bottom: 20px;
+    line-height: 1.6rem;
+    margin-bottom: 1rem;
     text-align: center;
 }
 
@@ -820,7 +819,7 @@ th svg {
     color: #A3CC40;
     text-align: center;
     max-width: 17.5rem;
-    padding: 31px 42px 33px 0;
+    padding: 1.55rem 2.1rem 1.65rem 0;
     position: relative;
     z-index: 2;
     box-sizing: border-box;
@@ -837,28 +836,29 @@ th svg {
     outline: none;
     transition: 0.5s;
     margin-bottom: 1.25rem;
+    font-size: 0.75rem;
 }
 
 .option_form:hover {
-    border: 1px solid #c4c4c4;
+    border: 0.05rem solid #c4c4c4;
     background: #fff;
     transition: 0.5s;
-    box-shadow:0px 0px 0px 5px #AAF34D85;
+    box-shadow:0 0 0 0.25rem #AAF34D85;
 }
 
 #chek__box {
-    margin-right:6px;
-    width: 18px;
-    height: 18px;
-    border-radius: 5px;
-    border: 1px solid greenyellow;
+    margin-right:0.3rem;
+    width: 0.9rem;
+    height: 0.9rem;
+    border-radius: 0.25rem;
+    border: 0.05rem solid greenyellow;
 }
 
 .comment {
     resize: none;
     font-weight: 400;
     font-size: 0.75rem;
-    line-height: 19px;
+    line-height: 0.95rem;
 }
 
 .full_name {
@@ -870,20 +870,19 @@ th svg {
     background: #DEDEDE;
     border-radius: 0.25rem;
     outline: none;
-    margin-bottom:33px;
+    margin-bottom:1.65rem;
     transition: 0.5s;
-    font-weight: 400;
     font-size: 0.75rem;
-    line-height: 19px;
+    line-height: 0.95rem;
     box-sizing: border-box;
     border: transparent;
 }
 
 .full_name:hover {
-    border: 1px solid #c4c4c4;
+    border: 0.05rem solid #c4c4c4;
     background: #fff;
     transition: 0.5s;
-    box-shadow:0px 0px 0px 5px #AAF34D85;
+    box-shadow:0 0 0 0.25rem #AAF34D85;
 }
 
 .email {
@@ -901,29 +900,28 @@ th svg {
 .full_name2 {
     color: #A1A1A1;
     width: 100%;
-    height: 2rem;
+    min-height: 6rem;
     outline: none;
     background: #DEDEDE;
     border: none;
     border-radius: 0.25rem;
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-    padding-bottom: 4.35rem;
+    padding: 0.65rem 0.8rem;
     margin-bottom: 1.5rem;
     display: flex;
     align-items: flex-start;
     transition: 0.5s;
     font-weight: 400;
     font-size: 0.75rem;
-    line-height: 19px;
+    line-height: 0.95rem;
     box-sizing: border-box;
+    font-family: 'IBMPlexSans', sans-serif;
 }
 
 .full_name2:hover {
-    border: 1px solid #c4c4c4;
+    border: 0.05rem solid #c4c4c4;
     background: #fff;
     transition: 0.5s;
-    box-shadow:0px 0px 0px 5px #AAF34D85;
+    box-shadow:0 0 0 0.25rem #AAF34D85;
 }
 
 .chek_box {
@@ -931,10 +929,10 @@ th svg {
     color: #333333;
     font-weight: 400;
     font-size: 0.5rem;
-    line-height: 13px;
+    line-height: 0.65rem;
     display: flex;
     align-items: center;
-    margin-bottom: 46px;
+    margin-bottom: 2.3rem;
 }
 
 .chek__box:hover {
@@ -949,7 +947,7 @@ th svg {
     color: white;
     font-size: 1.4rem;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 1.3rem;
     border:  0.05rem solid transparent;
 }
 
@@ -986,7 +984,7 @@ th svg {
     font-style: normal;
     font-weight: normal;
     font-size: 0.65rem;
-    line-height: 18px;
+    line-height: 0.9rem;
     color: #FFFFFF;
 }
 
@@ -1003,7 +1001,7 @@ th svg {
     text-decoration: none;
     color: white;
     font-size: 0.6rem;
-    line-height: 32px;
+    line-height: 1.6rem;
 }
 
 .site {
@@ -1012,7 +1010,7 @@ th svg {
     font-style: normal;
     font-weight: 600;
     font-size: 1rem;
-    line-height: 6px;
+    line-height: 0.3rem;
     color: #FFFFFF;
 }
 
@@ -1022,7 +1020,7 @@ th svg {
     font-style: normal;
     font-weight: 600;
     font-size: 1rem;
-    line-height: 5px;
+    line-height: 0.25rem;
     color: #FFFFFF;
 }
 
@@ -1034,7 +1032,7 @@ th svg {
 
 .copyright {
     font-size: 0.75rem ;
-    line-height: 10px;
+    line-height: 0.5rem;
     color: #FFFFFF;
     margin-left: -2.5rem;
 }

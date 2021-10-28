@@ -1,0 +1,16 @@
+.class1{
+    display: flex;
+    flex-direction: column;
+}
+
+.itm1{
+    font-size: 30px;
+    background: orange;
+    border: 1px solid green;
+    flex: 0 0 20px;
+}
+
+.itm1_1{
+   flex-grow: 1;
+}
+
