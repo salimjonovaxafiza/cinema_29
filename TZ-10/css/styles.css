@@ -27,7 +27,8 @@
     font-style: normal;
     font-weight: 600;
 }
-html{
+
+html {
     font-size: 1.78vw;
 }
 
@@ -238,7 +239,7 @@ body {
 
 /*Why us section*/
 
-.img:hover{
+.img:hover {
     transform: scale(1.07);
 }
 
@@ -311,7 +312,7 @@ body {
     height: 2.25rem;
 }
 
-.table th{
+.table th {
     vertical-align: middle;
 }
 
@@ -324,7 +325,7 @@ th svg {
     vertical-align: middle;
 }
 
-.t_body {
+#t_body {
     font-weight: 400;
     font-style: normal;
     font-size: 0.7rem;
@@ -341,7 +342,7 @@ th svg {
 
 /*Styles for border-radius*/
 
-.table td{
+.table td {
     vertical-align: middle;
 }
 
@@ -359,6 +360,7 @@ th svg {
 
 .check svg {
     padding-left: 1.2rem;
+    padding-right: 1.2rem;
 }
 
 .first_row {
@@ -560,9 +562,9 @@ th svg {
 
 .cinema__text {
     color: white;
-    font-size:0.65rem;
+    font-size: 0.65rem;
     font-weight: 400;
-    font-size:0.65rem;
+    font-size: 0.65rem;
     line-height: 0.85rem;
 }
 
@@ -579,7 +581,7 @@ th svg {
     font-style: normal;
     font-weight: 500;
     font-size: 2.4rem;
-    margin:  2.5rem 0 1.3rem 0;
+    margin: 2.5rem 0 1.3rem 0;
 }
 
 .goods__p {
@@ -641,6 +643,41 @@ th svg {
 
 /* Reviews */
 
+.owl-stage {
+    display: flex;
+}
+
+.owl-carousel .owl-nav button,
+.owl-carousel .owl-nav button,
+button.owl-dot {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    margin-left: 84px;
+    margin-right: 139px;
+
+}
+
+.owl-prev {
+    position: absolute;
+    top: 82px;
+    left: 220px;
+}
+
+.owl-next {
+    position: absolute;
+    right: 262px;
+    bottom: 135px;
+}
+
+
+.owl-theme .owl-nav {
+    font-size: 3rem;
+    color: yellowgreen;
+}
+
 .reviews__heading {
     color: #A3CC40;
     margin: 6.15rem 0 0 0;
@@ -686,9 +723,7 @@ th svg {
 }
 
 .section__photo {
-    display: flex;
-    margin-left: -0.65rem;
-    margin-top: -0.3rem;
+    margin-top: 4rem;
 }
 
 .photo__middle {
@@ -713,9 +748,9 @@ th svg {
     height: 14.2rem;
     color: white;
     border-radius: 0.45rem;
-    margin: 5rem 4.45rem 0;
+    /* margin: 5rem 4.45rem 0;
     margin-left: 0.85rem;
-    margin-top: 5.1rem;
+    margin-top: 5.1rem; */
 }
 
 .photo img {
@@ -769,7 +804,7 @@ th svg {
 
 /* Обратная связь */
 
-.feedback{
+.feedback {
     margin-bottom: 3.05rem;
 }
 
@@ -783,7 +818,7 @@ th svg {
     position: relative;
 }
 
-.feedback__form::after{
+.feedback__form::after {
     content: '';
     position: absolute;
     display: block;
@@ -814,7 +849,7 @@ th svg {
 }
 
 .party_form {
-    margin-left:  auto;
+    margin-left: auto;
     font-size: 1.25rem;
     color: #A3CC40;
     text-align: center;
@@ -843,11 +878,11 @@ th svg {
     border: 0.05rem solid #c4c4c4;
     background: #fff;
     transition: 0.5s;
-    box-shadow:0 0 0 0.25rem #AAF34D85;
+    box-shadow: 0 0 0 0.25rem #AAF34D85;
 }
 
 #chek__box {
-    margin-right:0.3rem;
+    margin-right: 0.3rem;
     width: 0.9rem;
     height: 0.9rem;
     border-radius: 0.25rem;
@@ -862,7 +897,7 @@ th svg {
 }
 
 .full_name {
-    width:100%;
+    width: 100%;
     height: 2rem;
     padding-left: 0.75rem;
     border: none;
@@ -870,7 +905,7 @@ th svg {
     background: #DEDEDE;
     border-radius: 0.25rem;
     outline: none;
-    margin-bottom:1.65rem;
+    margin-bottom: 1.65rem;
     transition: 0.5s;
     font-size: 0.75rem;
     line-height: 0.95rem;
@@ -882,7 +917,7 @@ th svg {
     border: 0.05rem solid #c4c4c4;
     background: #fff;
     transition: 0.5s;
-    box-shadow:0 0 0 0.25rem #AAF34D85;
+    box-shadow: 0 0 0 0.25rem #AAF34D85;
 }
 
 .email {
@@ -921,7 +956,7 @@ th svg {
     border: 0.05rem solid #c4c4c4;
     background: #fff;
     transition: 0.5s;
-    box-shadow:0 0 0 0.25rem #AAF34D85;
+    box-shadow: 0 0 0 0.25rem #AAF34D85;
 }
 
 .chek_box {
@@ -948,10 +983,10 @@ th svg {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.3rem;
-    border:  0.05rem solid transparent;
+    border: 0.05rem solid transparent;
 }
 
-.bt1:hover{
+.bt1:hover {
     color: yellowgreen;
     background: #fff;
     border: 0.05rem solid rgba(163, 204, 64, 0.62);
@@ -1024,14 +1059,38 @@ th svg {
     color: #FFFFFF;
 }
 
-.social{
-    position: absolute;
-    left: 4.4rem;
-    top: 7.1rem;
+.social {
+    display: flex;
+    margin: -103px 0 40px -74px;
+}
+
+.social__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin: 17px;
+    text-decoration: none;
+    background-color: #BEE956;
+    border-radius: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.social__link svg:hover {
+    transform: rotate(360deg);
+    transition: 0.7s;
+    color: #BEE956;
+    /* background-color: #fff; */
+}
+
+.social__linkedin {
+    margin-bottom: 3px;
 }
 
 .copyright {
-    font-size: 0.75rem ;
+    font-size: 0.75rem;
     line-height: 0.5rem;
     color: #FFFFFF;
     margin-left: -2.5rem;
