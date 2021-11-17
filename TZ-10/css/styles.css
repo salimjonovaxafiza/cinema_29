@@ -40,10 +40,10 @@ body {
 }
 
 .hero {
-    background-image: url(/img/back.png);
+    background-image: url(/img/Backgrooundcinema.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     padding-top: 2.2rem;
     padding-bottom: 15rem;
     height: 100vh;
@@ -248,12 +248,8 @@ body {
 } */
 
 .why_us_first_row {
-    display: flex;
-}
-
-.why_us_second_row {
-    display: flex;
-    margin-top: 1.75rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .why_us h2 {
@@ -264,10 +260,12 @@ body {
     text-align: center;
     width: 12.25rem;
     padding-right: 2.75rem;
+    /* margin-top: 25px; */
 }
 
 .why_us_cards img {
     border-radius: 0.5rem;
+    width: 100%;
 }
 
 .why_us_cards h3 {
@@ -549,7 +547,8 @@ th svg {
 }
 
 .film__cards {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .cinema__title {
@@ -662,20 +661,29 @@ button.owl-dot {
 
 .owl-prev {
     position: absolute;
-    top: 82px;
-    left: 220px;
+    top: 20%;
+    left: 30%;
 }
 
 .owl-next {
     position: absolute;
-    right: 262px;
-    bottom: 135px;
+    right: 30%;
+    top: 20%;
 }
 
 
 .owl-theme .owl-nav {
     font-size: 3rem;
     color: yellowgreen;
+}
+
+.owl-item.center .photo {
+    transform: scale(1.15);
+    transition: 0.7s;
+}
+
+.owl-carousel .owl-stage-outer {
+    padding: 40px 0;
 }
 
 .reviews__heading {
@@ -742,16 +750,15 @@ button.owl-dot {
 }
 
 .photo {
-    display: inline-block;
+    margin: 0 auto;
     background-color: yellowgreen;
     width: 10.5rem;
     height: 14.2rem;
     color: white;
     border-radius: 0.45rem;
-    /* margin: 5rem 4.45rem 0;
-    margin-left: 0.85rem;
-    margin-top: 5.1rem; */
+    transition: 0.7s;
 }
+
 
 .photo img {
     width: 10.4rem;

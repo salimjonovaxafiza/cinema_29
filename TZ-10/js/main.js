@@ -1,12 +1,14 @@
 $('.section__photo').owlCarousel({
     center: true,
-    items:2,
     loop:true,
     margin:10,
     nav:true,
     dots:false,
     responsive:{
-        600:{
+        0:{
+            items:1
+        },
+        768:{
             items:3
         }
     }

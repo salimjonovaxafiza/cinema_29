@@ -35,7 +35,7 @@ console.log ('23' - '3');
 console.log ('23'- 3);
 let year = 2021;
 let age = 34;
-console.log("Я родился в ", year - age, "году");
+console.log(`Я родился в  ${year - age} году`);
 
 console.log('')
 let one = '1';
