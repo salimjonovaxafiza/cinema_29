@@ -276,8 +276,7 @@ body {
     color: #333333;
 }
 
-.section_heading {
-    font-style: normal;
+.section-heading {
     font-weight: 500;
     font-size: 2.4rem;
     line-height: 5.55rem;
@@ -286,11 +285,11 @@ body {
 }
 
 /*Choose film (table)*/
-.choose_film {
-    padding: 5.7rem 0 0 7rem;
+/*Table*/
+.choose-film__table{
+    overflow-y: auto;
 }
 
-/*Table*/
 .table {
     border-collapse: separate;
     /*collaps was removed because of it border-radius didn't work*/
@@ -300,7 +299,7 @@ body {
     overflow: hidden;
 }
 
-.table_head {
+.table__head {
     font-size: 1rem;
     line-height: 1.3rem;
     font-weight: 600;
@@ -331,9 +330,8 @@ th svg {
     color: #ffff;
 }
 
-.film_p {
+.choose-film__description {
     font-size: 0.55rem;
-    margin-left: -7.8rem;
     margin-top: 1.45rem;
     text-align: center;
 }
@@ -397,10 +395,10 @@ th svg {
 .gift::after {
     content: '';
     position: absolute;
-    bottom: -0.05rem;
-    right: -0.05rem;
-    border-bottom: 12.3rem solid #fff;
-    border-left: 149vw solid transparent;
+    bottom: 0rem;
+    right: 0rem;
+    border-bottom: 11.3rem solid #fff;
+    border-left: 179vw solid transparent;
 }
 
 .gift::before {
@@ -498,7 +496,7 @@ th svg {
 }
 
 .film__img {
-    width: 17.65rem;
+    width: 100%;
     position: relative;
     overflow: hidden;
     display: block;
@@ -530,7 +528,6 @@ th svg {
 .film__img img {
     display: flex;
     width: 100%;
-    height: 17.65rem;
 }
 
 .film__p {
@@ -546,9 +543,9 @@ th svg {
     padding: 1.05rem 1.35rem;
 }
 
-.film__cards {
+.cinema__table {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3,1fr);
 }
 
 .cinema__title {
@@ -596,6 +593,7 @@ th svg {
 .goods__services {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -628,6 +626,11 @@ th svg {
     text-align: center;
 }
 
+.card__hover:hover{
+    background: none;
+    transition: 0.4s;
+    color: #A3CC40;
+}
 .card__hover-text {
     margin: -0.55rem 0 0 1.05rem;
 }
@@ -855,7 +858,7 @@ button.owl-dot {
     text-align: center;
 }
 
-.party_form {
+.party__form {
     margin-left: auto;
     font-size: 1.25rem;
     color: #A3CC40;
@@ -865,6 +868,7 @@ button.owl-dot {
     position: relative;
     z-index: 2;
     box-sizing: border-box;
+    margin-bottom: 3rem;
 }
 
 .option_form {
@@ -1005,18 +1009,17 @@ button.owl-dot {
 
 /* Rectangle 47 */
 
-.head11 {
+.footer{
     position: relative;
     background: url(/img/green.png);
     padding: 5%;
 }
 
-.box0 {
+.footer__line {
     display: flex;
-    margin-left: -2.5rem;
 }
 
-.contact_logo {
+.footer__logo {
     width: 19.5rem;
     color: white;
 }
@@ -1030,11 +1033,11 @@ button.owl-dot {
     color: #FFFFFF;
 }
 
-.text2 {
+.footer__site {
     margin-left: 2.5rem;
 }
 
-.text2 ul {
+.footer__site ul {
     list-style: none;
 }
 
@@ -1046,29 +1049,18 @@ button.owl-dot {
     line-height: 1.6rem;
 }
 
-.site {
-    height: 1.45rem;
+.footer__title {
     font-family: 'IBMPlexSans';
-    font-style: normal;
     font-weight: 600;
     font-size: 1rem;
     line-height: 0.3rem;
     color: #FFFFFF;
-}
-
-.contact {
-    height: 1.5rem;
-    font-family: 'IBMPlexSans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1rem;
-    line-height: 0.25rem;
-    color: #FFFFFF;
+    margin-bottom: 1.5rem;
 }
 
 .social {
     display: flex;
-    margin: -103px 0 40px -74px;
+    width: 100%;
 }
 
 .social__link {
@@ -1077,12 +1069,13 @@ button.owl-dot {
     align-items: center;
     width: 30px;
     height: 30px;
-    margin: 17px;
+    margin: 17px 17px 17px 0;
     text-decoration: none;
     background-color: #BEE956;
     border-radius: 100%;
     overflow: hidden;
     text-align: center;
+    flex-shrink: 0;
 }
 
 .social__link svg:hover {
@@ -1096,9 +1089,8 @@ button.owl-dot {
     margin-bottom: 3px;
 }
 
-.copyright {
+.footer__copyright {
     font-size: 0.75rem;
     line-height: 0.5rem;
     color: #FFFFFF;
-    margin-left: -2.5rem;
 }

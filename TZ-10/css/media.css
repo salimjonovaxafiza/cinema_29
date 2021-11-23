@@ -53,7 +53,22 @@
     .gift__img{
         width: 25%;
     }
+
+    .footer__line{
+        flex-wrap: wrap;
+    }
+
     
+.footer__site {
+    margin-left: 0;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+    
+
+.footer__copyright {
+    margin-top: 1.5rem;
+}
 }
 
 @media screen and (max-width:360px) {
